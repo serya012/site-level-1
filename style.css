@@ -352,29 +352,7 @@ footer {
     margin-top: 20px;
 }
 
-.scroll {
-    width: 50px; /* Largura do botão */
-    height: 50px; /* Altura do botão */
-    background-color: #007BFF; /* Cor do botão */
-    color: white; /* Cor do texto */
-    border: none; /* Remove borda */
-    border-radius: 50%; /* Deixa o botão redondo */
-    position: fixed; /* Fixa o botão na tela */
-    bottom: 20px; /* Distância do fundo da tela */
-    right: 20px; /* Distância da borda direita da tela */
-    display: flex;
-    justify-content: center; /* Centraliza o conteúdo no botão */
-    align-items: center; /* Centraliza o conteúdo no botão */
-    font-size: 1.5rem; /* Tamanho da fonte */
-    cursor: pointer; /* Aponta o cursor para indicar que é clicável */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao botão */
-    transition: background-color 0.3s ease; /* Transição suave para o hover */
-    z-index: 1000; /* Certifica que o botão fica sobre outros elementos */
-}
 
-.scroll:hover {
-    background-color: #0056b3; /* Cor de fundo no hover */
-}
 
 footer p {
     font-size: 0.9rem;
